@@ -2,16 +2,95 @@
     font-family: 'Roboto', sans-serif;
 }
 
-Header {
-    padding-left: 60px;
+#clay {
+    margin-left: 85px;
+    margin-right: 750px;
 }
 
 .p-padding {
     padding-left: 10px;
-    padding-right: 20px;
-    border: 2px solid black;
+    padding-right: 10px;
 }
 
- table, tr {
-    width: 100%;
+table, td {
+   border-collapse: separate;
+   border-spacing: 0px 0px;
+}
+
+td:hover {
+  background-color: #1D144D;
+  color: white;
+  cursor: pointer;
+}
+
+td > span {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#last-td > span {
+  margin-right: 10px;
+}
+
+.spaceman {
+  position: relative;
+  top: -15px;
+  margin-left: 500px;
+}
+
+.size1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.error-message {
+  position: relative;
+  margin-top: -700px;
+  margin-left: 85px;
+}
+
+#error-number {
+  font-size: 70px;
+  font-weight: 200;
+}
+
+#space {
+  font-size: 70px;
+}
+
+h1 {
+  position: relative;
+  top: -70px;
+}
+
+#paragraph {
+  font-size: 15;
+  position: relative;
+  top: -67px;
+  left: 5px;
+  color: #a3a0a8;
+  line-height: 1.5;
+}
+
+b {
+  text-decoration-line: underline;
+  text-decoration-color: #1D144D;
+}
+
+#buttons {
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  color: #1D144D;
+  margin-left: 65px;
+  margin-top: -40px;
+}
+
+.button-separation {
+  border: 2px solid #1D144D;
+  border-collapse: separate;
+  border-spacing: 20px;
+  padding: 15px 45px 15px 45px;
+  border-radius: 30px;
 }
