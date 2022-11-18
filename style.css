@@ -37,6 +37,7 @@ td > span {
   position: relative;
   top: -15px;
   margin-left: 500px;
+  image-rendering: crisp-edges;
 }
 
 .size1 {
@@ -76,6 +77,7 @@ h1 {
 b {
   text-decoration-line: underline;
   text-decoration-color: #1D144D;
+  text-underline-offset: 25px;
 }
 
 #buttons {
